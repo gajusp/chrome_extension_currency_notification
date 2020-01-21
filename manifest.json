@@ -1,0 +1,12 @@
+{
+  "name": "GBP to INR Currency Notification",
+  "version": "1.1",
+  "description": "Shows off desktop notifications, which are \"toast\" windows that pop up on the desktop.",
+  "icons": { "16": "gbp_16.png", "48": "gbp_48.png", "128": "gbp.png" },
+  "permissions": ["notifications", "https://api.exchangeratesapi.io/latest?base=GBP&symbols=INR"],
+
+  "background": { "scripts": ["background.js"] },
+  "manifest_version": 2,
+
+  "web_accessible_resources": ["gbp_48.png"]
+}
